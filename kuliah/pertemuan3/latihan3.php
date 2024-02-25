@@ -15,7 +15,8 @@ echo "Selesai<br>";
 echo "<hr>";
 
 echo "mulai<br>";
-for($nilai_awal =10; $nilai_awal >= 1; $nilai_awal --) {
+for($nilai_awal =10; $nilai_awal >= 1; $nilai_awal --
+) {
 
     echo "Hello World wey $nilai_awal x! <br>";
 
