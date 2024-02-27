@@ -17,4 +17,4 @@ echo "<br>";
 echo 'Nama saya  "Chandra"';
 echo '"Chandra" Kuliah hari '  . "Jum'at";
 echo "<br>";
-echo "/"Chandra/" Kuliah hari Jum'at";
+echo "/"Chandra"/" Kuliah hari Jum'at";
