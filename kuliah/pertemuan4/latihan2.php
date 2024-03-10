@@ -11,7 +11,8 @@
 
 // echo "total volume kubus A & B = $total";
 
-function total_volume_dua_kubus($a, $b){
+function total_volume_dua_kubus($a, $b)
+{
 
     $volume_a = $a * $a * $a;
     $volume_b = $b * $b * $b;
@@ -21,4 +22,5 @@ function total_volume_dua_kubus($a, $b){
 }
 total_volume_dua_kubus(9, 4);
 
-echo total_volume_dua_kubus(9,4);
+echo total_volume_dua_kubus(9, 4);
+?>

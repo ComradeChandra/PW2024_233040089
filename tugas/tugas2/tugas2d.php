@@ -14,3 +14,4 @@ for ($i = 1; $i <= 5; $i++) {
 }
 
 //help, college is getting harder by the second lmao
+?>
