@@ -95,19 +95,19 @@ $mahasiswa = [
             <li><img src="img/<?= $mhs["gambar"] ?>" alt=""></li>
 
             <li>Nama :
-                <?= $mhs["nama"] ?>
+                <?= $mahaw["nama"] ?>
             </li>
 
             <li>Nrp :
-                <?= $mhs["nrp"] ?>
+                <?= $mahaw["nrp"] ?>
             </li>
 
             <li>Email :
-                <?= $mhs["email"] ?>
+                <?= $mahaw["email"] ?>
             </li>
 
             <li>Jurusan :
-                <?= $mhs["jurusan"] ?>
+                <?= $mahaw["jurusan"] ?>
             </li>
         </ul>
         <hr>
