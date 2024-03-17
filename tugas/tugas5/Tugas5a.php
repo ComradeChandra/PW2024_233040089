@@ -90,7 +90,7 @@ $mahasiswa = [
 
     <h1>Daftar Mahasiswa</h1>
 
-    <?php foreach ($mahasiswa as $mhs): ?>
+    <?php foreach ($mahasiswa as $mahaw): ?>
         <ul>
             <li><img src="img/<?= $mhs["gambar"] ?>" alt=""></li>
 
