@@ -92,7 +92,7 @@ $mahasiswa = [
 
     <?php foreach ($mahasiswa as $mahaw): ?>
         <ul>
-            <li><img src="img/<?= $mhs["gambar"] ?>" alt=""></li>
+            <li><img src="img/<?= $mahaw["gambar"] ?>" alt=""></li>
 
             <li>Nama :
                 <?= $mahaw["nama"] ?>
