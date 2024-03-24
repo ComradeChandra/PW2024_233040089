@@ -62,7 +62,7 @@
 
     <?php if (!isset ($_POST["nomor"])): ?>
 
-        <p>Silakan Masukkan Variabel angka di dalam box sebelah "Submit"</p>
+        <p>Silakan Masukkan Variabel angka di dalam box "Submit"</p>
 
     <?php else: ?>
 

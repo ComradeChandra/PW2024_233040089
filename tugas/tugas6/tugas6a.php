@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tugas6get</title>
     <style>
-        .kotak {
+        .box {
             width: 50px;
             height: 50px;
             background-color: aqua;
@@ -15,15 +15,15 @@
             margin: 3px;
         }
 
-        .kotak h2 {
+        .box h2 {
             margin: auto;
         }
 
-        .kotak1 {
+        .boxI {
             background-color: red;
         }
 
-        .kotak2 {
+        .boxII {
             background-color: yellow;
         }
 
@@ -35,9 +35,9 @@
 </head>
 
 <body>
-    <?php if (!isset ($_GET["number"])): ?>
+    <?php if (!isset ($_GET["nomber"])): ?>
 
-        <h2>Variabel <i>"number"</i> belum dimasukkan, Silakan masukkan pada <b>URL</b> halaman ini
+        <h2>Variabel <i>"nomber"</i> belum dimasukkan, Silakan masukkan pada <b>URL</b> halaman ini
             (http://localhost/pw2024_233040089/tugas/tugas6/tugas6a.php).</h2>
 
         <hr>
@@ -45,18 +45,18 @@
 
     <?php else: ?>
 
-        <?php for ($i = $_GET["number"]; $i >= 1; $i--): ?>
+        <?php for ($i = $_GET["nomber"]; $i >= 1; $i--): ?>
             <div class="row">
                 <?php for ($j = 1; $j <= $i; $j++): ?>
 
                     <?php if ($i % 2 == 0): ?>
-                        <div class="kotak kotak1">
+                        <div class="box boxI">
                             <h2>
                                 <?= "$i" ?>
                             </h2>
                         </div>
                     <?php else: ?>
-                        <div class="kotak kotak2">
+                        <div class="box boxII">
                             <h2>
                                 <?= "$i" ?>
                             </h2>
